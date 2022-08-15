@@ -1,6 +1,6 @@
 // Importar la funcionalidad a testear que viene en un formato de objeto
 
-const { default: test } = require('node:test');
+//const { default: test } = require('node:test');
 const calculadora = require('./calculadora');
 
 //Empezamos con el testing

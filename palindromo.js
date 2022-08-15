@@ -6,3 +6,13 @@ const palindromo = (palabra) => {
         return false;
     }
 }
+
+//almacenar funciones
+
+const funcionPalindromo = {
+    palindromo,
+}
+
+// exportar
+
+module.exports = funcionPalindromo;
