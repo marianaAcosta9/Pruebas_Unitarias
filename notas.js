@@ -27,3 +27,25 @@ function promedio(calificacion1, calificacion2, calificacion3) {
 }
 
 promedio(8, 7, 9);
+
+
+/*
+ 
+    Test Runner (Herramientas para hacer pruebas unitarias)
+
+    - Mocha
+    - Ava
+    - Jest
+
+Jest es un marco de pruebas de JavaScript mantenido por Facebook, y esta enfocado en la simplicidad. Funciona con proyectos que utilizan Babel, TypeScript, Node.js, React, Angular y Vue.js. su objetivo es trabajar de inmediato y sin configuracion. Estaba pensado originalmante para trabajar en el lado del cliente, pero puede ser usado en cualquier lado.
+
+
+Lo que hace jest es reconocer todos los archivos que terminen en esto: nombreArchivo.test.js
+
+Consideraciones para que JEST trabaje
+
+1. Almacenar las funciones a testear en una constante del tipo objeto
+2. Exportar estas fucniones, para que estén disponibles en cualquier lugar
+3. Importar o al menos agregar la dirección de donde vienen estas funciones.
+
+ */
