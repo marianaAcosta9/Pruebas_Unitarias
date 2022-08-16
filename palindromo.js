@@ -1,4 +1,8 @@
 const palindromo = (palabra) => {
+    if (palabra === undefined || palabra.length <= 1) {
+        return false;
+    }
+
     let palabraInvertida = palabra.split('').reverse().join('');
     if (palabraInvertida === palabra) {
         return true;
